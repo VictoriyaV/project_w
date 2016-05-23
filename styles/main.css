@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 16px;
+}
+
+h2,h3{
+  text-align: center;
+  vertical-align: top;
+  color: #013220;
+  font-family:Arial;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+p {
+     text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 1px;
+    font-family:Arial;
+    font-size:16px;
+}
+
+img {
+    border: 0;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+margin-buttom: 10px;
+}
+
+ table {
+    border-collapse: collapse;
+  }
+
+/* HEADERS */
+
+#content {
+    background: #ACE1AF;    
+    width: 85%;
+    margin: auto;
+    border: 0;
+}
+
+#leftcontainer {
+    background: #6B8E23;
+    width: 250px;
+    float: left;
+    overflow: hidden;
+}
+
+#headlogo {
+    text-align: center;
+    background: #2E8B57;
+    padding: 2em 0;
+}
+
+#headlogo img {
+    height: 74px;
+    width: 220px;
+}
+
+#headimages {
+    text-align: center;
+    background: #ADDFAD;
+    overflow: hidden;
+}
+
+#headimages img {
+    height: 300px;
+    width: 200px;
+}
+
+#leftmenu {
+    background: #013220;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+#leftmenu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px 3px 3px;
+}
+
+#leftmenu a:hover {
+    background: #6B8E23;
+    color:  white;
+    margin-left: -20px;
+    padding-left: 10px;
+}
+
+#leftmenu li {
+    list-style-type: none;
+    margin: 0;
+} 
+
+#current a{
+    background: #F0F8FF;
+    color: gray;
+    margin-left: -20px;
+    padding-left: 10px;
+}
+
+/* Левый блок Авторизация*/
+#auth {
+    text-align:center;
+    padding: 10px;
+    background: #ADDFAD;
+}
+
+#auth a{
+    color: gray;
+    text-decoration: none;
+}
+
+/* Регистрация */
+#register {
+    position:relative;
+    text-align:center;
+    padding: 100px;
+    background: #ACE1AF;
+    margin: 10%;
+    border: 0;
+}
+
+/* Левый блок События*/
+
+#leftdoing {
+    position:relative;
+    height:260px;
+    background: #ADDFAD;
+    color: white;
+    overflow: hidden;
+}
+
+/*#leftdoing {
+    vertical-align: top;
+    background: #ACE1AF;
+    color: white;
+    overflow: hidden;
+}*/
+
+#leftdoing li {
+    margin: 3px;
+}
+
+#leftdoing a {
+    text-decoration: none;
+    color: white;
+}
+
+#leftdoing a:hover {
+    text-decoration: none;
+    color: lightcoral;
+    height: 100%;
+}
+
+#leftdoing #blockHide{
+    position:absolute;
+    bottom:0;
+    overflow: hidden;
+    background:#ADDFAD;
+}
+
+/*#blockHide {
+    overflow: hidden;
+    background:#ADDFAD;
+}*/
+
+/* /Левый блок События*/
+
+#doingsName {
+    overflow: hidden;
+    background: #ADDFAD;
+}
+
+#mainpart {
+    overflow: hidden;
+}
+
+#mainimagesthis {
+    text-align: center;
+    background: #013220;
+    overflow: hidden;
+}
+
+#mainimagesthis {
+    height: 140px;
+}
+
+#mainimagesthis:empty {
+    display: none;
+}
+
+#mainannotation {
+color: #F2F3F4;
+    overflow: hidden;
+    text-align: center;
+    background: #013220;
+}
+
+#maincontent {
+    overflow: hidden;
+    background: #ffffcc;
+}
+
+#maincontent table {
+    margin: auto;
+}
+
+#maincontent td, th {
+    padding-left: 5px;
+    border: 1px solid #fff;
+    background: #ADDFAD;
+}
+
+#maincontent img {
+    padding-left: 10px;
+
+}
+
+#maincontent li {
+    margin: 3px;
+}
+
+#maincontent a {
+    text-decoration: none;
+    color: #03C03C;
+}
+
+#maincontent a:hover {
+    text-decoration: none;
+    color: 	#6B8E23;
+    height: 100%;
+}
+
+
+#foot {
+ text-align: center;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    background: #013220;
+}
+
+.nowDateTime{
+    float:right;
+    width:20%;
+    padding-top: 15px;
+}
+.gor{
+    width: 500px;
+    height: 350px;
+}
+ .ver{
+    width: 350px;
+    height: 500px;
+}
+.about{
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 1px;
+    font-family:Arial;
+    font-size:16px;
+}
